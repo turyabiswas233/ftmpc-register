@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_r.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web\css\all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web\css\fontawesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <p>
+                <span>FTMPC</span>
+                <span>Registration</span>
+            </p>
+        </div>
+    </header>
+    <main>
+        <!-- <div class="image">
+            <img src="image/FTMPC2.jpg" class="ftmpc" alt="">
+            <a href="#form"><img src="image/icons/logo-test.png" class="scroll_down" alt=""></a>
+        </div> -->
+        <form action="registration" id="form">
+            <section class="name">
+                <label for="name">Student's Name <span style="color: red;">*</span></label>
+                <div class="input_box">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="ownerName" id="" required placeholder="Abdul Karim">
+                </div>
+            </section>
+            <section class="dob">
+                <label for="name">Date Of Birth <span style="color: red;">*</span></label>
+                <div class="input_box">
+                    <i class="fas fa-user"></i>
+                    <input type="date" name="date_birth" id="" min="1971-01-01" max="2015-12-31" required>
+                </div>
+            </section>
+            <section class="address">
+                <label for="name">Address <span style="color: red;">*</span></label>
+                <div class="input_box">
+                    <i class="fas fa-phone-alt"></i>
+                    <input type="text" name="address" id="" required placeholder="3/D,Motijhil,Dhaka-1000">
+                </div>
+            </section>
+            <section class="fb_id">
+                <label for="facebook">Facebook - ID <span style="color: red;">*</span></label>
+                <div class="input_box">
+                    <i class="fab fa-facebook-square"></i>
+                    <input type="url" name="fb_id" id="fb_id" required placeholder="copy URL from Facebook">
+                </div>
+            </section>
+            <section class="sch_clg_name">
+                <label for="name">School/College <span style="color: red;">*</span></label>
+                <div class="input_box">
+                    <i class="fas fa-school"></i>
+                    <input type="text" name="" id="clgName" required placeholder="Your College Name">
+                </div>
+            </section>
+            <section class="class">
+                <label for="class">Class <span style="color: red;">*</span></label>
+                <div class="input_box">
+                    <i class="fas fa-list-ul"></i>
+                    <select name="class" id="">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </div>
+            </section>
+            <section class="email">
+                <label for="email">E-mail <span style="color: red;">*</span></label>
+                <div class="input_box">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" name="email" id="email" required placeholder="example@email.com">
+                </div>
+            </section>
+            <section class="phone">
+                <label for="cell_num">Contact No. <span style="color: red;">*</span></label>
+                <div class="input_box">
+                    <i class="fas fa-phone-alt"></i>
+                    <input type="number" name="number" id="cell_num" required placeholder="0173xxxxxxx" value=""
+                        pattern="[0-9] {11}" spellcheck="true">
+                </div>
+            </section>
+            <hr class="last">
+            <section class="button">
+                <button type="submit" class="submit">Submit <i class="fa fa-paper-plane"></i></button>
+            </section>
+        </form>
+    </main>
+
+</body>
+
+</html>
